@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 40px;
 }
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: green;
 }
@@ -23,6 +26,7 @@ float: left;
 }
 section{
     height: 500px;
+    padding-bottom: 50px;
 }
 .link-button{
     text-decoration: none;
@@ -31,4 +35,30 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px green;
+    border-radius: 5px;
+    height: 50%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-color: green;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-color: indigo;
+}
+footer p{
+    text-align: center;
 }
